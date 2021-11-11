@@ -550,6 +550,15 @@ input{
         padding-bottom: 30px;
         width: 100%;
     }
+    .row15 h1{
+        font-size: 30px;
+    }
+    .row15 p{
+        font-size: 16px;
+    }
+    .row15 h2{
+        font-size:18px;
+    }
     .header button{
         /* margin-left: 10px; */
         /* width: 130px; */
@@ -674,6 +683,9 @@ input{
     }
 .icons{
     font-size:20px;
+}
+.row15{
+    width: 90%;
 }
 
     .container4{
