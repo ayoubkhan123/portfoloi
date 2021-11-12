@@ -62,9 +62,7 @@ html{
 .box{
     width: 30px;
     height: 20px;
-    /* margin: 0px auto; */
     cursor: pointer;
-    /* float: right; */
     display: none;
     margin-right: 20px;
 }
@@ -136,6 +134,10 @@ html{
     margin-bottom: 40px;
     border-radius: 20px;
 }
+.row22:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.6s;
+}
 
 .to-top{
     position: fixed;
@@ -160,7 +162,7 @@ html{
 }
 .to-top i{
     font-size:40px;
-    color:rgb(27, 15, 15);
+    color: blue;
 }
 
 
@@ -171,7 +173,7 @@ html{
 .container2{
     /* width: 98.7vw; */
     height: 100vh;
-    background: rgb(142, 129, 179);
+    background: rgb(151 171 153);
     display: flex;
     padding-bottom: 50px;
 }
@@ -192,8 +194,6 @@ html{
     font-size: 45px;
     margin: 0px auto;
     margin-bottom: 50px;
-    /* position: absolute;
-    top: 222%; */
     /* background: yellowgreen; */
 }
 .data1 h2{
@@ -365,8 +365,9 @@ html{
         border-bottom: solid 3px rgb(27, 15, 15);
         padding-top: 45px;
         margin-bottom: 30px;
-        font-size: 40px;
+        font-size: 35px;
     }
+
 .content5{
     display: flex;
     justify-content: space-around; 
@@ -375,6 +376,10 @@ html{
     width: 100%;
     margin: 0px auto;
     height: auto;
+}
+.first img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.6s; 
 }
 /* container5 start from here */
 
@@ -456,7 +461,7 @@ input{
     text-align: center;
     margin: 0px auto;
     height: 10vh;
-    background: rgb(141, 45, 45);
+    background: black;
     list-style: none;
     flex-wrap: wrap;
 }
@@ -464,7 +469,7 @@ input{
     height: auto;
     display: flex;
     justify-content: center;
-    background: rgb(141, 45, 45);
+    background: black;
     align-items: center;
     margin: 0px auto;
 }
@@ -484,7 +489,7 @@ input{
     display: flex;
     justify-content: center;
     color: white;
-    background: rgb(141, 45, 45);
+    background: black;
 }
 .last11 h3{
     opacity: 0.7;
@@ -552,12 +557,15 @@ input{
     }
     .row15 h1{
         font-size: 30px;
+        text-align: left;
     }
     .row15 p{
         font-size: 16px;
+        text-align: left;
     }
     .row15 h2{
         font-size:18px;
+        text-align: left;
     }
     .header button{
         /* margin-left: 10px; */
@@ -695,43 +703,32 @@ input{
     .container5{
         height: auto;
     }
+    .container5 h1{
+        font-size: 35px;
+    }
     .footer-nav{
         height: auto;
     }
     .footer-nav li{
     padding: 10px 0px;
     }
-}
-@media (max-width: 660px){
-    /* .container{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        padding-bottom: 40px;
-        padding-top: 20px;
+    .data1 h1{
+        font-size:35px;
+    }
+    .data1 h2{
+        font-size:25px;
+    }
+    .container3 h1{
+        font-size: 35px;
+    }
+    .web1 h2{
+        font-size: 22px;
     }
 
-    .item1{
-        margin: 0px auto;
-        width: 80%;
-        /* height: 90vh; */
-        /* margin-bottom: 30px;
-        padding-bottom: 60px;
-        padding-top: 30px;
-    }
-    .item1 h2{
-        padding-top: 40px;
-    }
-    .item2{
-        margin: 0px auto;
-        width: 80%;
-        /* height: 80vh; */
-        /* padding-top: 50px;
-        padding-bottom: 80px;
-        margin-bottom: 10px;
-    }  */
+
+}
+@media (max-width: 660px){
+   
     /* second container start here */
     .container2{
         width: 100%;
@@ -780,24 +777,20 @@ input{
     height: auto;
     width: 100%;
     padding-bottom: 30px;
-    /* padding: 20px; */
 }
 .first{
     padding: 5px;
-    /* width: 100%; */
-    /* height: auto; */
+
 }
 .content5{
     margin: 0px auto;
     width: 100%;
-    /* height: auto; */
 }
 /* container five start here */
 .container5{
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    /* padding: 0px 20px; */
     margin: 0px auto;
 }
 .footer{
@@ -819,15 +812,13 @@ input{
     .header h1{
         margin-left: 10px;
         width: 15%;
-        font-size: 20px;
+        font-size: 25px;
     }
     .row22{
         width: 100%;
     }
 
     .row22 img{
-        /* width: 210px; */
-        /* padding: 10vw; */
         box-sizing: border-box;
     }
    .box{
