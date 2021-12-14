@@ -114,7 +114,7 @@ html{
 .row15 button{
     width: 120px;
     height: 38px;
-    border-radius: 10px;
+    border-radius: 10px 0px;
     border: none;
     outline: none;
     margin-top: 30px;
@@ -173,7 +173,7 @@ html{
 .container2{
     /* width: 98.7vw; */
     height: 100vh;
-    background: rgb(151 171 153);
+    background: rgb(56 56 56);
     display: flex;
     padding-bottom: 50px;
 }
@@ -268,7 +268,7 @@ html{
     width: 100%;
     height: 100vh;
     margin-bottom: 20px;
-    background: rgb(251, 255, 247);
+    background: #ffffff;
     text-align: center;
     flex-wrap: wrap;
 
@@ -358,7 +358,7 @@ html{
     .container4{
         /* width: 98.7vw; */
         height: 100vh;
-        background: rgb(198, 202, 191);
+        background: rgb(95 95 95);
     }
     .container4 h1{
         text-align: center;
@@ -386,7 +386,7 @@ html{
 
 .container5{
     height: 100vh;
-    background: honeydew;
+    background: #ffffff;
     padding-bottom: 50px;
 }
 .container5 h1{
@@ -584,12 +584,16 @@ input{
     .header{
         position: fixed;
         width: 100%;
-        background: rgb(224, 213, 213);
+        /* background: rgb(224, 213, 213); */
         height: 50px;
     }
     .row15 h2{
         padding-top: 90px;
     }
+    .footer-nav li a{
+        font-size: 14px;
+    }
+
     .header ul{
         width: 90%;
         /* z-index: 1000; */
